@@ -1,4 +1,7 @@
-body {}
+body {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 14px;
+}
 
 .hero {
 	display: table;
@@ -52,22 +55,31 @@ h2 {
 .footer-image {
 	background-image: url(footer-image.png);
 	background-size: 100%;
-	width: 200px;
-	height: 200px;
+	width: 250px;
+	height: 250px;
 	border-radius: 50%;
 	margin: auto;
 	margin-top: 40px;
 }
 
 .contact-icons {
-	box-sizing: border-box;
-	white-space: normal;
+	padding-top: 30px;
 	text-align: center;
 	margin-bottom: 40px;
+}
+
+.tw,
+.em {
+	margin-left: 20px;
 }
 
 .footer-info {
 	background-color: rgba(0, 0, 0, 0.6);
 	margin-top: 30px;
+}
+
+.footer p {
 	color: white;
+	font-size: 18px;
+	margin-top: 30px;
 }
