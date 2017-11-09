@@ -32,52 +32,65 @@ div.hero .container {
 	color: white;
 }
 
-h2 {
+.hero h2 {
 	color: white;
 	text-align: center;
 	font-size: 5vw;
 }
 
-.book h1 {
-	font-size: 54px;
-	text-align: center;
-	color: #e73c3c;
+.book {
+	display: table;
+	width: 100%;
 	margin-top: 150px;
 }
 
-.book .container {
-	width: 1170px;
-	padding-top: 100px;
+.projects h1 {
+	font-size: 54px;
+	text-align: center;
+	color: #e73c3c;
+	margin-top: 50px;
 }
 
-.book .cnc {
+.projects .row {
+	padding-top: 60px;
+}
+
+.book-image {
 	background-image: url(BowtieBrothers.jpg);
 	background-size: 100%;
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
 	margin: auto;
-	margin-top: 40px;
+}
+
+.buy-book {
+	padding-top: 30px;
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 .book-info {
-	padding-left: 40px;
+	margin-top: 30px;
 }
 
-.bowtie-row {
-	padding-top: 50px;
-}
-
-.bowtie .btb {
+.btb-image {
 	background-image: url(BowtieBrothers.jpg);
 	background-size: 100%;
-	width: 400px;
-	height: 400px;
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
 	margin: auto;
-	margin-top: 40px;
 }
 
-.bowtie-info {
-	padding-left: 40px;
+.btb-fb {
+	padding-top: 30px;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.btb-info {
+	margin-top: 30px;
 }
 
 .footer {
