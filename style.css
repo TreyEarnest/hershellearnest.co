@@ -80,7 +80,7 @@ body {
 	margin-bottom: 40px;
 }
 
-.title-row {
+.title {
 	padding-top: 30px;
 }
 
@@ -89,14 +89,13 @@ body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	width: 300px;
-	height: 300px;
+	height: 150px;
 	margin: auto;
 }
 
-.btb-fb {
-	padding-top: 30px;
+.btb-social {
+	padding-top: 10px;
 	text-align: center;
-	margin-bottom: 40px;
 }
 
 .footer {
@@ -126,7 +125,8 @@ body {
 
 .fb,
 .tw,
-.em {
+.em,
+.ig {
 	margin-left: 10px;
 }
 
