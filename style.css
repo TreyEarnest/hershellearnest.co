@@ -3,7 +3,8 @@ body {
 	font-size: 14px;
 }
 
-div.hero {
+.hero {
+	background-image: initial;
 	width: 100%;
 	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1502886315456-e6c2e728db92?auto=format&fit=crop&w=3236&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
 	background-size: cover;
@@ -11,7 +12,7 @@ div.hero {
 	height: 950px;
 }
 
-div.hero .container {
+.hero .container {
 	padding-right: 15px;
 	padding-left: 15px;
 	margin-right: auto;
@@ -19,7 +20,7 @@ div.hero .container {
 }
 
 .hero h1 {
-	font-size: 7.5vw;
+	font-size: 125px;
 	text-align: center;
 	padding-top: 200px;
 }
@@ -48,19 +49,28 @@ div.hero .container {
 	font-size: 54px;
 	text-align: center;
 	color: #e73c3c;
-	margin-top: 50px;
+	margin-top: 200px;
 }
 
-.projects .row {
-	padding-top: 60px;
+.book-row,
+.bowtie-row {
+	margin-top: 10px;
+}
+
+.book-row {
+	padding-bottom: 30px;
+	border-bottom: 2px solid lightgray;
+}
+
+.title {
+	text-align: center;
 }
 
 .book-image {
-	background-image: url(BowtieBrothers.jpg);
+	background-image: url(Hershell%20BOOK%20Cover.jpg);
 	background-size: 100%;
 	width: 300px;
 	height: 300px;
-	border-radius: 50%;
 	margin: auto;
 }
 
@@ -70,16 +80,16 @@ div.hero .container {
 	margin-bottom: 40px;
 }
 
-.book-info {
-	margin-top: 30px;
+.title-row {
+	padding-top: 30px;
 }
 
 .btb-image {
 	background-image: url(BowtieBrothers.jpg);
 	background-size: 100%;
+	background-repeat: no-repeat;
 	width: 300px;
 	height: 300px;
-	border-radius: 50%;
 	margin: auto;
 }
 
@@ -87,10 +97,6 @@ div.hero .container {
 	padding-top: 30px;
 	text-align: center;
 	margin-bottom: 40px;
-}
-
-.btb-info {
-	margin-top: 30px;
 }
 
 .footer {
@@ -118,9 +124,10 @@ div.hero .container {
 	margin-bottom: 40px;
 }
 
+.fb,
 .tw,
 .em {
-	margin-left: 20px;
+	margin-left: 10px;
 }
 
 .footer-info {
@@ -132,4 +139,40 @@ div.hero .container {
 	color: white;
 	font-size: 18px;
 	margin-top: 30px;
+}
+
+@media screen and (max-width: 1199px) {
+	.hero {
+		height: 800px;
+	}
+	.hero h1 {
+		font-size: 105px;
+	}
+	.hero h2 {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.hero {
+		height: 1024px;
+	}
+	.hero h1 {
+		font-size: 55px;
+	}
+	.hero h2 {
+		font-size: 40px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.hero {
+		height: 700px;
+	}
+	.hero h1 {
+		font-size: 42px;
+	}
+	.hero h2 {
+		font-size: 30px;
+	}
 }
