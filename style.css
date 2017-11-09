@@ -52,6 +52,10 @@ body {
 	margin-top: 200px;
 }
 
+p {
+	color: #333333;
+}
+
 .book-row,
 .bowtie-row {
 	margin-top: 10px;
