@@ -62,6 +62,11 @@ body {
 	border-bottom: 1px solid lightgray;
 }
 
+.pi {
+	border-left: 5px solid lightgray;
+	padding-left: 5px;
+}
+
 .title {
 	text-align: center;
 }
@@ -69,15 +74,15 @@ body {
 .book-image {
 	background-image: url(Hershell%20BOOK%20Cover.jpg);
 	background-size: 100%;
+	background-repeat: no-repeat;
 	width: 300px;
-	height: 300px;
+	height: 230px;
 	margin: auto;
 }
 
 .buy-book {
-	padding-top: 30px;
+	padding-top: 10px;
 	text-align: center;
-	margin-bottom: 40px;
 }
 
 .title {
@@ -107,20 +112,22 @@ body {
 	margin-top: 150px;
 }
 
+.footer-col {
+	margin-top: 55px;
+}
+
 .footer-image {
 	background-image: url(footer-image.png);
 	background-size: 100%;
+	background-repeat: no-repeat;
 	width: 250px;
-	height: 250px;
-	border-radius: 50%;
+	height: 200px;
 	margin: auto;
-	margin-top: 40px;
+	padding-bottom: 200px;
 }
 
 .contact-icons {
-	padding-top: 30px;
 	text-align: center;
-	margin-bottom: 40px;
 }
 
 .fb,
@@ -132,12 +139,12 @@ body {
 
 .footer-info {
 	background-color: rgba(0, 0, 0, 0.6);
-	margin-top: 30px;
+	margin-top: 20px;
 }
 
 .footer p {
 	color: white;
-	font-size: 18px;
+	font-size: 16px;
 	margin-top: 30px;
 }
 
