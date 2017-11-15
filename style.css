@@ -58,7 +58,7 @@ p {
 
 .book-row,
 .bowtie-row,
-.naasi-row {
+.ncaasi-row {
 	margin-top: 10px;
 }
 
@@ -110,11 +110,11 @@ p {
 	font-size: 16px;
 }
 
-.naasi-2 {
+.ncaasi-2 {
 	font-size: 18px;
 }
 
-.naasi-image {
+.ncaasi-image {
 	background-image: url(naasi.png);
 	background-size: 100%;
 	background-repeat: no-repeat;
