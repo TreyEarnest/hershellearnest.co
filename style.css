@@ -82,12 +82,25 @@ p {
 	margin: auto;
 }
 
+.shirt-image {
+	background-image: url(shirt.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 330px;
+	margin: auto;
+}
+
 .buy-book {
 	padding-top: 10px;
 	text-align: center;
 }
 
 .book-info {
+	padding-left: 40px;
+}
+
+.shirt-info {
 	padding-left: 40px;
 }
 
